@@ -1,0 +1,60 @@
+{
+  "obj_list": [
+    {
+      "m_name": "CompileErrorUnit",
+      "m_display": "编译错误度量元",
+	  "m_weight": 10,
+      "m_unittype": 8,
+	  "m_configValues": [1000]
+    },
+	{
+      "m_name": "CompileWarningUnit",
+      "m_display": "编译警告度量元",
+	  "m_weight": 10,
+      "m_unittype": 8,
+	  "m_configValues": [300, 800, 2000]
+    },
+	{
+      "m_name": "CycleComplexityUnit",
+      "m_display": "函数圈复杂度度量元",
+	  "m_weight": 10,
+      "m_unittype": 7,
+	  "m_configValues": [200, 300, 400, 500]
+    },
+	{
+      "m_name": "CloneCodeUnit",
+      "m_display": "重复度分析度量元",
+	  "m_weight": 10,
+      "m_unittype": 6,
+	  "m_configValues": [50, 100]
+    },
+	{
+      "m_name": "TooLongUnit",
+      "m_display": "过长函数/类代码度量元",
+	  "m_weight": 10,
+      "m_unittype": 5,
+	  "m_configValues": [400, 1000, 50, 200, 500, 40]
+    },
+	{
+      "m_name": "TooManyParam",
+      "m_display": "过多参数函数度量元",
+	  "m_weight": 10,
+      "m_unittype": 5,
+	  "m_configValues": [3, 5, 15, 20]
+    },
+	{
+      "m_name": "TooLongCall",
+      "m_display": "过长的链式调用度量元",
+	  "m_weight": 10,
+      "m_unittype": 5,
+	  "m_configValues": []
+    },
+	{
+      "m_name": "TooDepthCall",
+      "m_display": "过深代码块度量元",
+	  "m_weight": 10,
+      "m_unittype": 4,
+	  "m_configValues": []
+    }
+  ]
+}
